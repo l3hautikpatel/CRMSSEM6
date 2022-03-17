@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+  <nav>
+    <ul class="nav nav-tabs navcolor justify-content-end textcolorblack" >
+        <li class="nav-item">
+             <a class="nav-link active textcolorblack " aria-current="page" href="#"> <ion-icon name="home-outline"></ion-icon>&nbsp; &nbsp; Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle textcolorblack" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"> <ion-icon name="apps-outline"></ion-icon>&nbsp; &nbsp;Services </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item navcolor textcolorblack" href="#">Rent</a></li>
+            <li><a class="dropdown-item navcolor textcolorblack" href="#">Buy </a></li>
+            <li><a class="dropdown-item navcolor textcolorblack" href="#">Sell</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link textcolorblack" href="#"><ion-icon name="call-outline"></ion-icon>&nbsp; &nbsp;Contact us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link textcolorblack" href="#"><ion-icon name="people-circle-outline"></ion-icon>&nbsp;&nbsp;About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link textcolorblack"><ion-icon name="id-card-outline"></ion-icon>&nbsp; &nbsp;Profile</a>
+        </li>
+      </ul>
+    </nav>
+
+
+
+    <carousel class="padding">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner ">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="../img/slide_11.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="../img/slide_2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none textcolorblack d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/slide_3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption textcolorblack d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </carousel>
+    
+
+<script src="../js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

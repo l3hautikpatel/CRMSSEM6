@@ -1,0 +1,25 @@
+*{
+    margin : 0px;
+    padding: 0px;
+}
+body{
+    background: rgb(132,204,235);
+    background: linear-gradient(131deg, rgba(132,204,235,1) 0%, rgba(90,185,234,0.9556197478991597) 57%, rgba(193,200,228,1) 100%);
+}
+
+.navcolor{
+    background-color: #5680e9;
+}
+.textcolorblack{
+    color: black;
+
+}
+.padding{
+    padding: 10px;
+}
+.carousel-inner{
+    width:100%;
+    max-height: 550px !important;
+    
+  }
+  
